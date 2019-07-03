@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FCM</string>
+    <string name="facebook_app_id">818790411853322</string>
+    <string name="fb_login_protocol_scheme">fb818790411853322</string>
+    <string name="server_client_id">Successfull</string>
+    <string name="firebase_login">Login</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">[ACCOUNT_KIT_CLIENT_TOKEN]</string>
+
+
+</resources>

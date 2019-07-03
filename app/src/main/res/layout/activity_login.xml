@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".ui.LoginActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_firebase_logo" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:text="FireBase Login Google"
+        android:textSize="25sp" />
+
+    <ProgressBar
+        android:visibility="invisible"
+        android:id="@+id/progress_circular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_bg"
+        android:drawableStart="@drawable/ic_google_logo"
+        android:drawableLeft="@drawable/ic_google_logo"
+        android:padding="5dp"
+        android:text="Login with Google"
+        android:textAllCaps="false" />
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/logout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_bg"
+        android:drawableStart="@drawable/ic_google_logo"
+        android:drawableLeft="@drawable/ic_google_logo"
+        android:padding="5dp"
+        android:text="Logout"
+        android:textAllCaps="false" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "918761429174",
+    "firebase_url": "https://demofirebasecloudmessage-3ad10.firebaseio.com",
+    "project_id": "demofirebasecloudmessage-3ad10",
+    "storage_bucket": "demofirebasecloudmessage-3ad10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918761429174:android:e777aed4606f5132",
+        "android_client_info": {
+          "package_name": "com.gioidev.demofirebasecloudmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918761429174-d7chjb4f0dqjpc2v00hh9ptbsj1fi8kq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gioidev.demofirebasecloudmessage",
+            "certificate_hash": "f6c1652d3cec2165b2fb5844d7d69a487162febb"
+          }
+        },
+        {
+          "client_id": "918761429174-l5pb55u8nupgcp74tsd2g3lrnknh8jsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM87p_qWUe22UEzEXMkrrNm1_A5XPYdv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918761429174-l5pb55u8nupgcp74tsd2g3lrnknh8jsk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
